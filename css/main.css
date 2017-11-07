@@ -9,16 +9,22 @@
 
 #reservations {
     border: 1px solid #000;
+    width: 100%;
+    padding: 10px 10px 10px 10px;
 }
 
 .reserve {
     float: left;
     width: 50%;
     border: 1px solid #000;
+    margin: 20px;
 }
 
 .res_list {
+    float: right;
+    width: 50%;
     border: 1px solid #000;
+    margin: 20px;
 
 }
 
@@ -28,6 +34,7 @@
 
 #reviews {
     border: 1px solid #000;
+    width: 100%;
 }
 
 .image {

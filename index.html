@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Monk's Cafe</title>
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/grid.css">
 </head>
 <body>
     <header class="banner">
@@ -12,20 +12,29 @@
     </header>
     
     <div id="reservations">
-        <h1>Reservations</h1>
+<!--        <h1>Reservations</h1> -->
 
-        <div class="reserve">
+        <div class="reserve box">
             <h2>Make a Reservation</h2>
             <form action="">
                 <input type="email" name="Email" id="email" placeholder="Email address"><br>
-                <input type="date" name="Date" id="date" placeholder="Date"><br>
+                <input type="date" name="Date" id="date" placeholder="Date"><br><br>
                 <button type="submit">Confirm Reservation</button>
             </form>
         </div>
 
-        <div class="res_list">
+        <div class="res_list box">
             <h2>Existing Reservations</h2>
-            
+            <table>
+                <thead>
+                    <th>Email</th>
+                    <th>Date</th>
+                </thead>
+                <tbody>
+                    <td>test email</td>
+                    <td>test date</td>
+                </tbody>
+            </table>
 
         </div>
 
@@ -40,13 +49,13 @@
     <div id="reviews">
         <h1>Customer Reviews</h1>
         <div class="review">
-            <div class="image">
+            <div class="image box">
                 <img src="images/jerry.jpg">
 
             </div>
 
-            <div class="quote">
-                <blockquote>“Big lettuce, big carrots, tomatoes like volleyballs.”<br>
+            <div class="quote box">
+                <blockquote>“Big lettuce, big carrots, tomatoes like volleyballs.”<br><br>
                 — Jerry Seinfeld, on The BIG Salad
                 </blockquote>
 
