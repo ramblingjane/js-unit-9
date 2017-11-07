@@ -4,4 +4,38 @@
     background-size: contain;
     width: 100%;
     height: 300px;
+    border: 1px solid #000;
+}
+
+#reservations {
+    border: 1px solid #000;
+}
+
+.reserve {
+    float: left;
+    width: 50%;
+    border: 1px solid #000;
+}
+
+.res_list {
+    border: 1px solid #000;
+
+}
+
+#location {
+    border: 1px solid #000;
+}
+
+#reviews {
+    border: 1px solid #000;
+}
+
+.image {
+    float: left;
+    width: 50%;
+    border: 1px solid #000;
+}
+
+.quote {
+    border: 1px solid #000;
 }
