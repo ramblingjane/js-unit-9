@@ -1,9 +1,16 @@
 #reservations {
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 1fr 1fr;
     grid-gap: 10px;
     background-color: #fff;
     color: #444;
+}
+
+.banner {
+    display: grid;
+    grid-template-rows: 1fr;
+    background-image: url("../images/toms-restaurant.jpg");
+    background-size: contain;
 }
 
 .box {
@@ -16,7 +23,7 @@
 
 .review {
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 1fr 1fr;
     grid-gap: 10px;
     background-color: #fff;
     color: #444;
